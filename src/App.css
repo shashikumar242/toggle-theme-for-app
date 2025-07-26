@@ -1,0 +1,17 @@
+.light{
+  --bg-color:white;
+  --text-color:black;
+}
+
+.dark{
+  --bg-color:#121212;
+  --text-color:white;
+}
+
+
+
+
+body,html,div{
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
